@@ -9,6 +9,6 @@ Sudo installer for your Android device!
 - Harmless.
 - Ability to set password for ```sudo```.
 ### Installation
-- Download ```installsudo.sh``` file and run it with root privileges: ```su -c ./installsudo.sh```
+Download ```installsudo.sh``` file and run it with root privileges: ```su -c ./installsudo.sh```
 ### Usage
-- Once installed, you can ruun any command as root using: ```sudo <command>```. For example: ```sudo whoami``` will return ```root```.
+Once installed, you can run any command as root using: ```sudo <command>```. For example ```sudo whoami``` will return ```root```.
