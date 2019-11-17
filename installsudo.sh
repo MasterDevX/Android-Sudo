@@ -41,7 +41,7 @@ read inputpass
 if [ \"\$inputpass\" == \"\$rootpass\" ]; then
     su -c \"\$cmd\"
 else
-    echo "[sudo] Authentication failed!"
+    echo \"[sudo] Authentication failed!\"
     exit 1
 fi" > /system/bin/sudo
         else
