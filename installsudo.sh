@@ -1,7 +1,7 @@
 #!/system/bin/sh
 
 clear
-echo "Android-Sudo v1.0 by MasterDevX. Made in Ukraine."
+echo "Android-Sudo v1.1 by MasterDevX. Made in Ukraine."
 echo "-------------------------------------------------"
 crtusr="$(whoami)"
 if [ "$crtusr" == "root" ]; then
