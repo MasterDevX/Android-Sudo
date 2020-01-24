@@ -3,8 +3,7 @@
 clear
 echo "Android-Sudo v1.1 by MasterDevX. Made in Ukraine."
 echo "-------------------------------------------------"
-crtusr="$(whoami)"
-if [ "$crtusr" == "root" ]; then
+if [ "`id | grep =0`" ]; then
     echo "[sudo] Installing sudo..."
     printf "[sudo] Enter new password for root (leave empty for none): "
     read pass
